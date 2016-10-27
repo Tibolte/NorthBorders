@@ -1,0 +1,134 @@
+body {
+  background: #999999;
+}
+
+.content {
+  background-color: #FEFEFE;
+  width: 80%;
+  margin: 20px auto;
+  padding: 20px 20px 150px 20px;
+  -webkit-box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.5);
+  -moz-box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.5);
+  box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.5);
+  position: relative;
+  background-image: url(../qr_coin2.jpg);
+  background-position: right bottom;
+  background-repeat: no-repeat;
+}
+
+.qr_code {
+  height: 300px;
+  right: 0;
+  position: absolute;
+  bottom: 0;
+}
+
+.page_title {
+  font-size: 4rem;
+  color: #FEFEFE;
+  text-shadow: 2px 2px 0 #C1C1C1;
+  font-weight: bold;
+  display: block;
+}
+
+.breadcrumb {
+  font-size: 1.1rem;
+  color: #737373;
+  display: block;
+  margin-top: -10px;
+  margin-left: 60px;
+  margin-bottom: 30px;
+}
+
+.menu {
+  font-size: 1.1rem;
+  color: #737373;
+  display: block;
+  margin-bottom: 30px;
+  margin-top: 30px;
+  margin-right: 10px;
+}
+
+.photos_container {
+  text-align: center;
+}
+
+.photo {
+  display: inline-block;
+  margin-bottom: 50px;
+}
+
+.photo img {
+  max-width: 100%;
+}
+
+.photo .title {
+  margin-top: 10px;
+  text-align: left;
+  display: block;
+}
+
+.photo .description {
+  margin-left: 20px;
+  font-size: 0.8rem;
+  font-style: italic;
+}
+
+.photoset {
+  width: 200px;
+  height: 200px;
+  background-size:cover;
+  display: inline-block;
+  margin: 20px;
+  position: relative;
+}
+
+.photoset .title {
+  text-align: left;
+  display: block;
+  margin: 15px;
+  bottom: 0px;
+  left: 0px;
+  position: absolute;
+  color: white;
+}
+
+.linear_gradient {
+  bottom: 0px;
+  left: 0px;
+  position: absolute;
+  height: 65px;
+  width: 100%;
+  background-image: linear-gradient(to top, rgba(0,0,0,125), rgba(255,0,0,0));
+}
+
+.pages {
+  font-size: large;
+}
+
+.pages a {
+  margin: 5px;
+}
+
+.page_select {
+  font-size: xx-large;
+}
+
+@media (max-width: 600px) {
+  .content {
+    margin: 0px;
+    width: 100%;
+    padding: 5px 5px 150px 5px;
+  }
+
+  .page_title {
+    font-size: 3rem;
+  }
+
+}
+
+@media (max-width: 480px) {
+  .page_title {
+    font-size: 2.5rem;
+  }
+}
